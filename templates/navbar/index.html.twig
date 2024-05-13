@@ -1,0 +1,59 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello NavbarController!{% endblock %}
+
+{% block body %}
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #333;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* affiche les éléments de manière horizontale */
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+li a:hover {
+  background-color: #555;
+}
+
+
+</style>
+
+<body>
+
+<nav>
+  <ul>
+    <li><a href="/home">Accueil</a></li>
+    <li><a href="/connexion">connexion</a></li>
+    <li><a href="/inscriptionn">inscription</a></li>
+    
+  </ul>
+</nav>
+
+</body>
+</html>
+
+</body>
+</html>
+
+{% endblock %}
